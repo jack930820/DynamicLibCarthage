@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D6D4EC4F1D22603900918D3E /* DynamicLibCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D4EC4E1D22603900918D3E /* DynamicLibCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6D4EC581D22737B00918D3E /* Hello.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D4EC561D22737B00918D3E /* Hello.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6D4EC591D22737B00918D3E /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D4EC571D22737B00918D3E /* Hello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6D4EC4B1D22603900918D3E /* DynamicLibCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicLibCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D4EC4E1D22603900918D3E /* DynamicLibCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicLibCarthage.h; sourceTree = "<group>"; };
 		D6D4EC501D22603900918D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D4EC561D22737B00918D3E /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		D6D4EC571D22737B00918D3E /* Hello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				D6D4EC4E1D22603900918D3E /* DynamicLibCarthage.h */,
 				D6D4EC501D22603900918D3E /* Info.plist */,
+				D6D4EC561D22737B00918D3E /* Hello.h */,
+				D6D4EC571D22737B00918D3E /* Hello.m */,
 			);
 			path = DynamicLibCarthage;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D4EC4F1D22603900918D3E /* DynamicLibCarthage.h in Headers */,
+				D6D4EC581D22737B00918D3E /* Hello.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D4EC591D22737B00918D3E /* Hello.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

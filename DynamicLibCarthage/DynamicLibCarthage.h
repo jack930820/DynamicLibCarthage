@@ -6,14 +6,22 @@
 //  Copyright © 2016年 quanmai. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
+//
+//#import "Hello.h"
+//
+////! Project version number for DynamicLibCarthage.
+//FOUNDATION_EXPORT double DynamicLibCarthageVersionNumber;
+//
+////! Project version string for DynamicLibCarthage.
+//FOUNDATION_EXPORT const unsigned char DynamicLibCarthageVersionString[];
+//
+//// In this header, you should import all the public headers of your framework using statements like #import <DynamicLibCarthage/PublicHeader.h>
 
-//! Project version number for DynamicLibCarthage.
-FOUNDATION_EXPORT double DynamicLibCarthageVersionNumber;
 
-//! Project version string for DynamicLibCarthage.
-FOUNDATION_EXPORT const unsigned char DynamicLibCarthageVersionString[];
+#ifndef DynamicLibCarthage_H
+#define DynamicLibCarthage_H
 
-// In this header, you should import all the public headers of your framework using statements like #import <DynamicLibCarthage/PublicHeader.h>
+#import "Hello.h"
 
-
+#endif /* DynamicLibCarthage_H */
