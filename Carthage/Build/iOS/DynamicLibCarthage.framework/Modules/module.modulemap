@@ -1,0 +1,6 @@
+framework module DynamicLibCarthage {
+  umbrella header "DynamicLibCarthage.h"
+
+  export *
+  module * { export * }
+}
